@@ -1,0 +1,18 @@
+font-family = "MesloLGS NF"
+
+# Split management keybindings
+# super+shift+2 = new split
+keybind = super+shift+2=new_split:auto
+
+# super+w = close split
+keybind = super+w=close_surface
+
+# Navigate splits
+keybind = super+physical:two=goto_split:next
+keybind = super+physical:one=goto_split:previous
+
+# super+shift+enter = focus/zoom split
+keybind = super+shift+enter=toggle_split_zoom
+
+# super+k = clear screen (preserves powerline prompt)
+keybind = super+k=text:clear\x0d
