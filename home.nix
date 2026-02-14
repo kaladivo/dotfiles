@@ -18,6 +18,7 @@
     # Development
     bun
     git
+    gh
     curl
     wget
 
