@@ -82,7 +82,7 @@
   # --- Desktop entries ---
   xdg.desktopEntries."1password" = {
     name = "1Password";
-    exec = "1password --ozone-platform=wayland %U";
+    exec = "1password --ozone-platform=wayland --disable-gpu %U";
     terminal = false;
     type = "Application";
     icon = "1password";
