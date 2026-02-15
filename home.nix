@@ -21,6 +21,8 @@
     gh
     curl
     wget
+    _1password
+    _1password-gui
 
     # Fonts
     meslo-lgs-nf
