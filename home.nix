@@ -21,7 +21,7 @@
     gh
     curl
     wget
-    _1password
+    _1password-cli
     _1password-gui
 
     # Fonts
