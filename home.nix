@@ -82,5 +82,11 @@
     ".config/ghostty/config".source = ./config/ghostty-config;
     ".zsh/functions.zsh".source = ./config/functions.zsh;
     ".zsh/zsh-z.plugin.zsh".source = ./config/zsh-z.plugin.zsh;
+
+    # Ghostty terminfo (needed for SSH from Ghostty - TERM=xterm-ghostty)
+    ".terminfo" = {
+      source = "${pkgs.ghostty}/share/terminfo";
+      recursive = true;
+    };
   };
 }
