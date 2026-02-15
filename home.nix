@@ -79,6 +79,19 @@
     };
   };
 
+  # --- Desktop entries ---
+  xdg.desktopEntries."1password" = {
+    name = "1Password";
+    exec = "1password --ozone-platform=wayland %U";
+    terminal = false;
+    type = "Application";
+    icon = "1password";
+    comment = "Password manager and secure wallet";
+    mimeType = [ "x-scheme-handler/onepassword" ];
+    categories = [ "Office" ];
+    settings.StartupWMClass = "1Password";
+  };
+
   # --- Dotfiles ---
   home.file = {
     ".p10k.zsh".source = ./config/p10k.zsh;
